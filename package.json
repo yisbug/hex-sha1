@@ -1,0 +1,36 @@
+{
+  "name": "hex-sha1",
+  "version": "1.0.0",
+  "description": "SHA-1 implementation in JavaScript, support nodejs and browser(String/Buffer).",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "mocha -r esm -t 600000 -b -w test/sha1.test.js",
+    "test1": "webpack",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yisbug/hex-sha1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yisbug/hex-sha1/issues"
+  },
+  "homepage": "https://github.com/yisbug/hex-sha1#readme",
+  "dependencies": {
+    "buffer": "^5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1",
+    "esm": "^3.0.72",
+    "mocha": "^5.2.0",
+    "should": "^13.2.2",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0"
+  }
+}

@@ -1,15 +1,19 @@
-SHA1.MIN.JS
+hex-sha1
 =======================
 
-A very short implementation of SHA-1 in JavaScript.  As of commit b4fbff4, it is 1,480 bytes long.
+A very short implementation of SHA-1 in JavaScript,  for the nodejs/browser, support String/Buffer.
 
 USAGE
 =======================
 
-Sha1.min.js exports a function called hex_sha1.
-
 ```
-console.log(hex_sha1('abc')); // prints a9993e364706816aba3e25717850c26c9cd0d89d
+import hexSha1 from 'hex-sha1';
+const buf = Buffer.concat([
+  Buffer.from('FT'),
+  Buffer.from(new Uint8Array([0, 0, 0, 0, 0, 0, 0, 0]).buffer),
+]);
+console.log(hexSha1(buf)); // Buffer, d9ad653575cd8b307f435d5cb55748b477aa4f12
+console.log(hexSha1('test string.')); // String, 92d9bd6ea420b65dc0e7e7aa10fe9673dbbb2e01
 ```
 
 
