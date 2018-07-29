@@ -4,7 +4,6 @@ hex-sha1
 A very short implementation of SHA-1 in JavaScript,  for the nodejs/browser, support String/Buffer.
 
 INSTALL
-
 =======================
 
 ```
