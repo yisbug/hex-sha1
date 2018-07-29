@@ -1,6 +1,6 @@
 {
   "name": "hex-sha1",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SHA-1 implementation in JavaScript, support nodejs and browser(String/Buffer).",
   "main": "dist/main.js",
   "scripts": {
