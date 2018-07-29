@@ -3,6 +3,20 @@ hex-sha1
 
 A very short implementation of SHA-1 in JavaScript,  for the nodejs/browser, support String/Buffer.
 
+INSTALL
+
+=======================
+
+```
+npm i hex-sha1 --save
+```
+
+or
+
+```
+yarn add hex-sha1
+```
+
 USAGE
 =======================
 
